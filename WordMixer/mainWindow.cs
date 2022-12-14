@@ -46,6 +46,7 @@ namespace WordMixer
                     result_string += $"{input2_arr[input2_arr.Length - 1 - i]} ";
                     }
                 }
+            result_string = result_string.Trim();
             return result_string;
             }
         }
