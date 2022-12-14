@@ -39,10 +39,11 @@
             this.inputBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.inputBox.Font = new System.Drawing.Font("Constantia", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.inputBox.Location = new System.Drawing.Point(133, 132);
             this.inputBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.inputBox.Name = "inputBox";
-            this.inputBox.Size = new System.Drawing.Size(941, 40);
+            this.inputBox.Size = new System.Drawing.Size(941, 53);
             this.inputBox.TabIndex = 0;
             // 
             // resultBox
@@ -50,10 +51,11 @@
             this.resultBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.resultBox.Font = new System.Drawing.Font("Arial Narrow", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.resultBox.Location = new System.Drawing.Point(133, 248);
             this.resultBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.resultBox.Name = "resultBox";
-            this.resultBox.Size = new System.Drawing.Size(941, 40);
+            this.resultBox.Size = new System.Drawing.Size(941, 50);
             this.resultBox.TabIndex = 1;
             // 
             // mixButton
